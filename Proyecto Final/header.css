@@ -5,10 +5,10 @@ body {
 header {
   background-color: rgba(246, 135, 41, 1);
   display: grid;
-  grid-template-columns: auto auto 1fr auto auto; 
+  grid-template-columns: auto auto 1fr auto; 
   grid-template-areas:
-    "barras logo espacio favoritos carrito"
-    "buscador buscador buscador buscador buscador"; 
+    "barras logo espacio favoritos "
+    "buscador buscador buscador buscador"; 
   align-items: center;
   justify-items: center;
   padding: 20px;
@@ -30,10 +30,6 @@ header {
 
 .favoritos {
   grid-area: favoritos;
-}
-
-.carrito { 
-  grid-area: carrito; 
 }
 
 .buscador { 
@@ -77,9 +73,9 @@ header img, footer img {
 @media screen and (min-width: 1024px) {
   header {
     display: grid;
-    grid-template-columns: auto auto 1fr auto auto;
+    grid-template-columns: auto auto 1fr auto;
     grid-template-areas: 
-      "barras logo buscador favoritos carrito";
+      "barras logo buscador favoritos";
     padding: 10px 20px; 
     align-items: center;
   }
