@@ -1,0 +1,48 @@
+
+.carrusel {
+  display:flex;
+  gap:10px;
+  padding: 5px 10px 10px 10px;
+  overflow-x:auto;
+  scroll-snap-type: x mandatory;
+}
+
+.foto {
+  position: relative;
+  scroll-snap-align:center;
+  border-radius: 15px;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.foto:hover{
+  transform:scale(1.05);
+}
+
+.carrusel::-webkit-scrollbar { 
+  display: none; 
+}
+
+.foto img { 
+  width: 150px; 
+  height: 120px; 
+  object-fit: cover; 
+  border-radius: 10px; 
+}
+
+.foto p { 
+  position: absolute; 
+  color: white; 
+  font-size: 18px; 
+  pointer-events: none; 
+}
+
+@media screen and (min-width: 1024px) { 
+  .foto img { 
+    width: 300px; 
+    height: auto; 
+  } 
+}
+

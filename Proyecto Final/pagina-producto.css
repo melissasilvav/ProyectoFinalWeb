@@ -1,0 +1,264 @@
+h1{
+    padding-top: 90px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+h2 {
+    color: rgba(246, 135, 41, 1);
+    padding-left: 20px;
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+#descripcion {
+    padding-left: 30px;
+    margin: 0px;
+    font-family: 'Noto Serif', serif;
+    font-size: 14px;
+}
+
+.muestra-producto {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+    padding-left: 20px;
+}
+
+h3 {
+    padding-left: 20px;
+    font-family: 'Noto Serif', serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+a {
+  color: rgba(246, 135, 41, 1);
+}
+
+.imagen {
+    width: 65%; 
+    max-width: 300px;
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.info-producto {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    gap: 10px; 
+}
+
+.precio {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    height: auto;
+    width: 110px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgba(246, 135, 41, 1);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#agregar-carrito {
+    background-color: rgba(45, 35, 39, 1);
+    font-size: 10px;  
+    height: auto;
+    width: 95px;
+    height: 25px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    padding: 5px;
+}
+
+#titulo-reviews {
+    background-color: rgba(45, 35, 39, 1);
+    color: white;
+    display: inline-block; 
+    padding: 10px 20px;  
+    border-top-right-radius: 20px;  
+    border-bottom-right-radius: 20px;
+}
+
+.review {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    gap: 10px;                 
+    background-color: rgba(217, 217, 217, 1);  
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px; 
+}
+
+.texto-review {
+    flex: 1; 
+    display: flex;
+    flex-direction: column; 
+    gap: 5px;
+}
+
+.usuario-estrellas {
+    display: flex;
+    align-items: center;    
+    gap: 5px;       
+}
+
+.usuario {
+    display: inline-block;
+    font-family: 'Noto Serif', serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+.estrellas {
+    display: flex; 
+}
+
+.estrella {
+    width: 25px;
+    height: 25px;
+}
+
+.opinion {
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    color: black;
+    margin: 0;
+    padding-left: 5px;
+}
+
+.foto-review {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.header-reviews {
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+    background-color: rgba(45, 35, 39, 1);
+    color: white;
+    padding: 10px 20px; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: fit-content; 
+    height: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .imagen-container {
+    margin-top: 0; 
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  #descripcion {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .productos {
+    grid-template-columns: repeat(3, 1fr); 
+    column-gap: 20px; 
+    row-gap: 15px; 
+  }
+
+  .imagen {
+    max-width: 700px;
+    height: 400px;
+  }
+
+  .precio {
+    font-size: 30px;
+  }
+  
+  button {
+    width: 100px;
+  }
+
+  #comprar {
+    font-size: 40px;
+    width: 250px;
+  }
+
+  #agregar-carrito {
+    font-size: 20px;  
+    width: 200px;
+    height: 50px;
+    display: flex;
+    align-self: center;
+    align-items: center;
+  }
+
+  .muestra-producto {
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    gap: 100px;
+  }
+
+  #titulo-reviews {
+    font-size: 30px;
+  }
+
+  .header-reviews {
+    padding: 20px 30px; 
+  }
+
+  .usuario {
+    font-size: 25px;
+  }
+
+  .estrella {
+    height: 40px;
+    width: auto;
+  }
+
+  .opinion {
+    font-size: 20px;;
+  }
+
+  .foto-review {
+    width: 500px;
+    height: 200px;
+  }
+
+}

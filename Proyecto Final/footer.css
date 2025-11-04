@@ -1,0 +1,36 @@
+body {
+  margin: 0px;
+}
+
+footer {
+  background-color: rgb(45, 35, 39);
+  display: grid;
+  grid-template-columns:auto auto auto 1fr auto;
+  grid-template-areas: 
+  "instagram facebook tiktok espacio hechoNL";
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0 20px;
+  height: 70px;
+  margin-top: 20px;
+}
+
+.instagram {
+  grid-area: instagram;
+}
+
+.facebook {
+  grid-area: facebook;
+}
+
+.tiktok {
+  grid-area: tiktok;
+}
+
+.hechoNL {
+  grid-area: hechoNL;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(246, 135, 41, 1);
+}
