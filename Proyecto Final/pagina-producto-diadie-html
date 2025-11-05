@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Hecho en Nuevo León</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="categoria.css">
+  <link rel="stylesheet" href="carrusel.css">
+  <link rel="stylesheet" href="pagina-producto.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <img src="Logos/menu.png" alt="Menú de hamburguesa" class="barras">
+    <a href="main.html">
+      <img src="Logos/NL-logo.svg" alt="Nuevo León" class="logo">
+    </a>
+    <div class="espacio"></div>
+    <img src="Logos/favoritos-menu.png" alt="Favoritos" class="favoritos">
+    <form class="buscador" role="search">
+      <img src="Logos/lupa.png" alt="Buscar" class="lupa">
+      <span class="search-icon" aria-hidden="true"></span>
+      <input class="search-input" type="search" placeholder="Buscar algo en especial">
+    </form>
+  </header>
+
+  <main>
+    <h1>Desodorante de Coco</h1>
+
+    <section class="muestra-producto">
+      <img src="Logos/diadie-desodorante-coco.png" alt="Desodorante de coco" class="imagen">
+      <div class="info-producto">
+        <p class="precio">$150</p>
+        <button id="comprar">Comprar</button>
+        <button id="agregar-carrito">Agregar al carrito</button>
+      </div>
+    </section>
+
+    <section class="emprendedor">
+      <a href="emprendedor.html"><h2>diadie</h2></a>
+      <p id="descripcion">Somos una empresa 100% mexicana de marca registrada ante el IMPI y con registro de COFEPRIS. Fabricamos en Monterrey, NL. y somos parte integral del programa de Gobierno "Hecho en NL" el cual busca impulsar el comercio local bajo el marco de la legalidad. Fabricamos y comercializamos productos naturales para cuidar la piel como los desodorante naturales.</p>
+      <h3>Conoce más del vendedor</h3>
+      <section class="carrusel">
+        <div class="foto">
+          <p class="titulo">Desodorante Kids</p>
+          <img src="Logos/desodorante-kids.png" alt="Café regular">
+        </div>
+
+        <div class="foto">
+          <p class="titulo">Jabón</p>
+          <img src="Logos/jabon.png" alt="Café premium">
+        </div>
+
+        <div class="foto">
+          <p class="titulo">Desodorante Mujer</p>
+          <img src="Logos/desodorante-mujer.png" alt="Café soluble">
+        </div>
+      </section>
+    </section>
+
+    <div class="header-reviews">
+      <h3 id="titulo-reviews">Reseñas</h3>
+      <div class="estrellas">
+        <img src="Logos/estrella-llena.png" class="estrella" alt="">
+        <img src="Logos/estrella-llena.png" class="estrella" alt="">
+        <img src="Logos/estrella-llena.png" class="estrella" alt="">
+        <img src="Logos/estrella-llena.png" class="estrella" alt="">
+        <img src="Logos/estrella-vacia.png" class="estrella" alt="">
+      </div>
+    </div>
+
+    <section class="review">
+      <div class="texto-review">
+        <div class="usuario-estrellas">
+          <span class="usuario">Tomás Zapata</span>
+          <div class="estrellas">
+            <img src="Logos/estrella-llena.png" class="estrella" alt="">
+            <img src="Logos/estrella-llena.png" class="estrella" alt="">
+            <img src="Logos/estrella-llena.png" class="estrella" alt="">
+            <img src="Logos/estrella-llena.png" class="estrella" alt="">
+            <img src="Logos/estrella-llena.png" class="estrella" alt="">
+          </div>
+        </div>
+        <p class="opinion">Huele bien, si funciona, lo recomiendo mucho.</p>
+      </div>
+      <img src="Logos/desodorante-review1.png" class="foto-review" alt="Niño feliz con desodorante">
+    </section>
+
+    <section class="review">
+      <div class="texto-review">
+        <div class="usuario-estrellas">
+          <span class="usuario">Luis Rodríguez</span>
+          <div class="estrellas">
+            <img src="Logos/estrella-llena.png" class="estrella" alt="">
+            <img src="Logos/estrella-llena.png" class="estrella" alt="">
+            <img src="Logos/estrella-llena.png" class="estrella" alt="">
+            <img src="Logos/estrella-llena.png" class="estrella" alt="">
+            <img src="Logos/estrella-vacia.png" class="estrella" alt="">
+          </div>
+        </div>
+        <p class="opinion">Me gusto el café, pero no tanto...</p>
+      </div>
+      <img src="Logos/desodorante-review2.png" class="foto-review" alt="Niña agarrando dos desodorantes">
+    </section>
+  </main>
+
+  <footer>
+    <img src="Logos/instagram.png" alt="Instagram" class="social-icon">
+    <img src="Logos/facebook.png" alt="Facebook" class="social-icon">
+    <img src="Logos/tiktok.png" alt="TikTok" class="social-icon">
+    <div class="espacio"></div>
+    <h3 class="hechoNL">Hecho en Nuevo León</h3>
+  </footer>
+</body>
+</html>
